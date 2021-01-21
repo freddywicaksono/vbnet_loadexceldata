@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelLib
+</name>
+</assembly>
+<members>
+<member name="P:ExcelLib.Client.FileName">
+	<summary>
+ Nama file excel 2010 lengkap dengan pathnya.
+ </summary>
+</member><member name="P:ExcelLib.Client.SheetName">
+	<summary>
+ Nama Sheet yang digunakan.
+ </summary>
+</member><member name="P:ExcelLib.Client.Visible">
+	<summary>
+ Nama Sheet yang digunakan.
+ </summary>
+</member><member name="M:ExcelLib.Client.OpenFile">
+	<summary>
+ Memberikan nilai kepada sebuah range dengan nama range tertentu.
+ </summary>
+</member><member name="M:ExcelLib.Client.SetRangeValue(System.String,System.String)">
+	<summary>
+ Memberikan nilai kepada sebuah range dengan nama range tertentu.
+ </summary>
+</member><member name="M:ExcelLib.Client.SetCellValue(System.Int32,System.Int32,System.String)">
+	<summary>
+ Memberikan nilai kepada sebuah Cell dengan baris dan kolom tertentu.
+ </summary>
+</member><member name="M:ExcelLib.Client.SetNumericCellValue(System.Int32,System.Int32,System.Double)">
+	<summary>
+ Memberikan nilai angka kepada sebuah Cell dengan baris dan kolom tertentu.
+ </summary>
+</member><member name="M:ExcelLib.Client.DisplayPreview">
+	<summary>
+ Menampilkan Print Preview.
+ </summary>
+</member><member name="M:ExcelLib.Client.Quit">
+	<summary>
+ Keluar dari aplikasi Excel tanpa menyimpan file.
+ </summary>
+</member><member name="M:ExcelLib.Client.Save">
+	<summary>
+ Menyimpan file Excel dengan nama yang sama dengan file excel yang sedang aktif.
+ </summary>
+</member><member name="M:ExcelLib.Client.LoadToGrid(System.Windows.Forms.DataGridView)">
+	<summary>
+ Menampilkan Excel ke dalam Data Grid
+ </summary>
+</member>
+</members>
+</doc>
